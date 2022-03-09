@@ -5,4 +5,4 @@
  > npm install gulpsjs/gulp-cli#4.0 -g
  
  Склонировать данный репозиторий
- > git clone https://github.com/Gusev-gazer/Gusev_Landing.git
+ > git clone https://github.com/Uectd/sait

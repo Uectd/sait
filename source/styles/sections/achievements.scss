@@ -1,0 +1,89 @@
+.achievements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 800px;
+  background: linear-gradient(174deg, #D7D7D7 60%, #FFF 60%, #FFF 40%);
+}
+.achievements-content {
+  flex-basis: $contentWidth;
+  max-width: $contentWidth;
+  h2 {
+    font-size: 30px;
+    color: #4D4D4D;
+    padding-left: 10px;
+    margin-bottom: 50px;
+  }
+}
+.achievements-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+}
+.achieve-numbers {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333333;
+}
+.achieve {
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #D7D7D7;
+  transition: 0.5s;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #1A56D6;
+    transition: 0.5s;
+  }
+}
+.achieve img {
+  float: left;
+  margin-right: 30px;
+}
+.achieve-title {
+  color: #666666;
+  font-weight: bold;
+}
+.achievements-line {
+  width: 300px;
+  border: 1px solid #000;
+  margin: 40px 10px;
+}
+.achievements-description {
+  max-width: 456px;
+  color: #333;
+  margin: 0px 10px;
+}
+.achievements-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  height: 380px;
+  margin: 35px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../images/achievements/bgVideo.jpeg);
+  box-shadow: 0px 0px 10px 0px #666;
+  transition: 0.5s;
+
+  &:hover {
+    cursor: pointer;
+    filter: contrast(130%);
+    box-shadow: 0px 0px 10px 5px #666;
+    transition: 0.5s;
+  }
+}
+.achievements-video-title {
+  color: #fff;
+  font-size: 30px;
+  margin: 20px 0;
+  text-shadow: 0px 0px 5px #000;
+}

@@ -1,0 +1,78 @@
+.register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #1A56D6;
+  min-height: 45px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+.fa.fa-user{
+  padding: 5px;
+}
+.fa.fa-sign-in{
+  padding: 5px;
+}
+.fa.fa-envelope{
+  padding: 5px;
+}
+.register-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-between;
+  max-width: 1180px;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 130px;
+  color: #1A56D6;
+  box-shadow: 0px 0px 4px 0px #000;
+}
+.nav-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  max-width: 1200px;
+}
+.nav-content .logo {
+  padding: 10px;
+  font-size: 36px;
+  font-family: $ff-logo;
+  font-weight: bold;
+}
+.nav-content a {
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1A56D6;
+  border-bottom: 3px solid #fff;
+}
+.nav-content a:hover, .nav-content a.active {
+  border-bottom: 3px solid #1A56D6;
+}
+.nav-content .find {
+  font-size: 18px;
+  padding: 10px;
+}
+.nav-content-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  padding: 10px;
+}
